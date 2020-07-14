@@ -1,0 +1,79 @@
+body {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+/* navbar */
+.navbar-collapse{
+	justify-content: center;
+	background-color: #2F989D;
+}
+.nav-item:hover {
+        background-color: #EA7C68;
+        color: #fff;
+}
+
+h2{
+	font: bold;
+	color: #2F989D;
+}
+.btn-primary{
+    background-color: #EA7C68;
+}
+.btn-primary:hover{
+    background-color: #ac3e2b;
+}
+.social {
+	text-align:center;
+	padding-bottom:80px;
+}
+ul.social-icons {
+	margin:20px 0;
+}
+ul.social-icons li {
+	list-style:none;
+	display:inline-block;
+	margin:10px;
+}
+ul.social-icons li:first-child {
+	margin-left:0;
+}
+ul.social-icons li a {
+	opacity:0.8;
+}
+ul.social-icons li a:hover {
+	opacity:1;
+}
+.section-skills{
+	background-color: #2F989D;
+}
+.card-deck{
+	padding: 40px;
+}
+.card-title{
+	font: bold;
+	color: #EA7C68;
+}
+.gallery-box{
+	padding: 70px 0px;
+}
+.tz-gallery{
+	margin-top: 30px;
+}
+.tz-gallery .lightbox img {
+    width: 100%;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+.tz-gallery .lightbox{
+	border: 3px solid #2F989D;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+.section-footer a {
+	color: #6e6e6e;
+  }
